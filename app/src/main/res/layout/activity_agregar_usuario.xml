@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarUsuario">
+
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="@string/user_id"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etUserId"
+        android:layout_marginTop="15dp"
+        android:hint="@string/id"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:digits="abcdefghijklmnopqrstuvwxyz "
+        android:hint="@string/title"
+        android:inputType="textVisiblePassword|textNoSuggestions" />
+
+    <Spinner
+        android:id="@+id/spnCompleted"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:entries="@array/completed" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spnCompleted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableTop="@drawable/send"
+        android:text="@string/enviar" />
+
+</RelativeLayout>

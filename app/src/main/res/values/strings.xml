@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="ingrese_usuario">Ingreso de usuarios</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="title_activity_menu">Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="listado_usuarios">Listado de usuarios</string>
+    <string name="agregar_usuario">Agregar usuario</string>
+    <string name="title_activity_listado_usuarios">ListadoUsuarios</string>
+    <string name="title_activity_agregar_usuario">AgregarUsuario</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="contra">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="title">Title</string>
+    <string name="id">ID</string>
+    <string name="user_id">User ID</string>
+    <string name="enviar">Enviar</string>
+    <string name="finalizar_sesion">Finalizar sesión</string>
+
+    <string-array name="completed">
+        <item>Seleccionar opción:</item>
+        <item>True</item>
+        <item>False</item>
+    </string-array>
+</resources>
